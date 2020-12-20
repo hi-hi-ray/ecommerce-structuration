@@ -3,7 +3,7 @@
 ![imagem com animação e estrela no fundo e um texto dizendo database e-commerce structuration](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/src/images/Cover%20Database%20Animated.gif)
 
 ## Sobre o projeto.
-Este é um projeto que contém a estrutura de um banco de dados de uma loja de mangás online pequena fictícia. O objetivo do banco de dado é ser possível ter um controle do estoque e das vendas.
+Este é um projeto que contém a estrutura de um banco de dados de uma pequena loja ficiticia de mangás online. O objetivo do banco de dados é criar a possíbilidade de ter um controle do estoque e de vendas.
 
 ## Dados a serem usados na tabela.
 ✩ Nome do mangá.
