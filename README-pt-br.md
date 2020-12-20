@@ -7,20 +7,32 @@ Este é um projeto que contém a estrutura de um banco de dados de uma loja de m
 
 ## Dados a serem usados na tabela.
 ✩ Nome do mangá.
+
 ✩ Categoria do mangá.
+
 ✩ Descrição do mangá.
+
 ✩ Volume do mangá.
+
 ✩ Preço.
+
 ✩ Quantidade.
+
 ✩ Data do pedido.
+
 ✩ Nome do comprador.
+
 ✩ Nome do Autor.
+
 ✩ Endereço do Comprador.
+
 ✩ Editora.
+
 ✩ Quantidade de mangá.
 
 ## Índice
-✩ Banco de dados relacional RDBMS (#banco-de-dados-relacional-rdbms)
+✩ [Banco de dados relacional RDBMS](#banco-de-dados-relacional-rdbms)
+
 ✩ Banco de dados não relacional
 
 ### Banco de dados relacional RDBMS
@@ -32,10 +44,15 @@ Esse tipo de banco possui estrutura organizacional disposta em tabelas onde as m
 
 #### Itens que foram utilizados para construção do banco:
 ♡ Desenhar o mapa do banco e suas possíveis relações.
+
 ♡ Evitar dados duplicados e redundantes.
+
 ♡ Precisão ao identificar os diferentes tipos de tabelas que podem ser construídas com os dados recebidos. 
+
 ♡ Identificando os padrões dos dados e aplicando na sua coluna o seu tipo e tamanho.
+
 ♡ Identificar as chaves primárias e estrangeiras.
+
 ♡ Ver as relações e se há necessidade de tabelas auxiliares para melhorar a performance de consultas. 
 
 ---
