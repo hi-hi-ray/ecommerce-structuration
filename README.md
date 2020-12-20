@@ -4,9 +4,9 @@
 
 ## Choose your language / Escolha sua linguagem :
 
-- [English (Inglês)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-en.md)
+✩ [English (Inglês)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-en.md)
 
-- [Portugese (Português)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-pt-br.md)
+✩ [Portugese (Português)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-pt-br.md)
 
 
 ### Support this project (´｡• ᵕ •｡`) ♡
