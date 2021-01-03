@@ -62,6 +62,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
 1.  Criação da tabela Manga
 
     1.1. Foi agrupado todos os dados que são relacionados à mangá.
+    
     1.2. Foi selecionado os dados que não precisam de uma única tabela, ou seja, dados que podem ser adicionados mais informações relacionados a essa entidade.
 
 
