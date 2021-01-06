@@ -7,3 +7,7 @@
 ✩ [English (Inglês)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-en.md)
 
 ✩ [Portuguese (Português)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-pt-br.md)
+
+
+### Contributors (´｡• ᵕ •｡`) ♡
+You can use the [Discussions](https://github.com/hi-hi-ray/ecommerce-structuration/discussions) to give your feedback and become a [Contributor](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/CONTRIBUTORS.MD). ♡
