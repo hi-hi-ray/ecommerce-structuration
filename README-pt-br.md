@@ -63,7 +63,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
 
     1.1. Foi agrupado todos os dados que são relacionados à mangá.
 
-        ```
+       ```
         Table Manga as M {
             id int [pk, increment, not null] // auto-increment
             name varchar [not null]
@@ -74,11 +74,11 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
             category varchar [not null]
             publisher varchar [not null]
         }
-        ```
+       ```
     
     1.2. Foi selecionado os dados que não precisam de uma única tabela, ou seja, dados que podem ser adicionados mais informações relacionados a essa entidade.
 
-        ```
+       ```
         Table Author as A {
             id int [pk, increment, not null] // auto-increment
             name varchar [not null]
@@ -93,7 +93,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
             id int [pk, increment, not null] // auto-increment
             name varchar [not null]
         }
-        ```
+       ```
             
     1.3. Foi verificado as relações entre as tabelas e as variáveis.
 
@@ -101,9 +101,9 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
        + **Relação da tabela Mangá e Editora:** Um mangá possui apenas uma editora e uma editora pode possuir vários mángas. Essa relação vai ser de 1 para N (muitos).
        + **Relação da tabela Mangá e Categoria:** Um mangá pode possuir várias categorias e uma categoria pode possuir vários mángas. Essa relação vai ser necessário criar uma tabela auxiliar, pois a relação entre esses dados é de N (muitos) para N (muitos).
 
-        Com o mapeamento feito, foi removido as variáveis da tabela Manga e criado as tabelas auxiliares e por fim desenhado a relação entre elas:
+       Com o mapeamento feito, foi removido as variáveis da tabela Manga e criado as tabelas auxiliares e por fim desenhado a relação entre elas:
         
-        ```
+       ```
         Table Manga as M {
             id int [pk, increment, not null] // auto-increment
             name varchar [not null]
@@ -128,7 +128,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
         Ref: MA_AUX."id_manga" - M."id"
         Ref: MC_AUX."id_category" - C."id"
         Ref: MC_AUX."id_manga" - M."id"
-        ``` 
+       ``` 
 
 O resultado final desse desenho:
 
