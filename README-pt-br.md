@@ -97,11 +97,11 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
             
     1.3. Foi verificado as relações entre as tabelas e as variáveis.
 
-        - **Relação da tabela Mangá e Autor:** Um mangá pode possuir vários autores e um autor pode possuir vários mangás. Essa relação vai ser necessário criar uma tabela auxiliar, pois a relação entre esses dados é de N (muitos) para N (muitos).
-        - **Relação da tabela Mangá e Editora:** Um mangá possui apenas uma editora e uma editora pode possuir vários mángas. Essa relação vai ser de 1 para N (muitos).
-        - **Relação da tabela Mangá e Categoria:** Um mangá pode possuir várias categorias e uma categoria pode possuir vários mángas. Essa relação vai ser necessário criar uma tabela auxiliar, pois a relação entre esses dados é de N (muitos) para N (muitos).
+       + **Relação da tabela Mangá e Autor:** Um mangá pode possuir vários autores e um autor pode possuir vários mangás. Essa relação vai ser necessário criar uma tabela auxiliar, pois a relação entre esses dados é de N (muitos) para N (muitos).
+       + **Relação da tabela Mangá e Editora:** Um mangá possui apenas uma editora e uma editora pode possuir vários mángas. Essa relação vai ser de 1 para N (muitos).
+       + **Relação da tabela Mangá e Categoria:** Um mangá pode possuir várias categorias e uma categoria pode possuir vários mángas. Essa relação vai ser necessário criar uma tabela auxiliar, pois a relação entre esses dados é de N (muitos) para N (muitos).
 
-        Com o mapeamento foi feito foi removido as variáveis da tabela Manga, criado as tabelas auxiliares e por fim desenhado a relação entre elas:
+        Com o mapeamento feito, foi removido as variáveis da tabela Manga e criado as tabelas auxiliares e por fim desenhado a relação entre elas:
         
         ```
         Table Manga as M {
@@ -128,7 +128,6 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
         Ref: MA_AUX."id_manga" - M."id"
         Ref: MC_AUX."id_category" - C."id"
         Ref: MC_AUX."id_manga" - M."id"
-
         ``` 
 
 O resultado final desse desenho:
