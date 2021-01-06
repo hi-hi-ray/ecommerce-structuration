@@ -69,7 +69,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
             name varchar [not null]
             description varchar [not null]
             volume int 
-            price float [not null]
+            price int [not null]
             author varchar [not null]
             category varchar [not null]
             publisher varchar [not null]
@@ -109,7 +109,7 @@ Utilizando o [DBDiagram](https://dbdiagram.io/) que é uma plataforma gratuita e
             name varchar [not null]
             description varchar [not null]
             volume int 
-            price float [not null]
+            price int [not null]
             publisher int [not null]
         }
 
