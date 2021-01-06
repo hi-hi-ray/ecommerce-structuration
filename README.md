@@ -6,4 +6,4 @@
 
 ✩ [English (Inglês)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-en.md)
 
-✩ [Portugese (Português)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-pt-br.md)
+✩ [Portuguese (Português)](https://github.com/hi-hi-ray/ecommerce-structuration/blob/main/README-pt-br.md)
